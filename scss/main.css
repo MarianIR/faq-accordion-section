@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 10px;
+}
+
+body {
+  width: 100%;
+  background: linear-gradient(0deg, hsl(240, 73%, 65%) 0%, hsl(273, 75%, 66%) 100%) no-repeat center center fixed;
+  z-index: -999;
+}
+
+.main-section {
+  width: 90%;
+  max-width: 33rem;
+  margin: 8rem auto 2rem;
+  padding-bottom: 2rem;
+  border-radius: 2rem;
+  background-color: #fff;
+  box-shadow: 1px 2px 11px 8px rgba(204, 204, 204, 0.18);
+}
+.main-section .image {
+  position: absolute;
+  width: 60%;
+  max-width: 30rem;
+  margin: 0 auto;
+}
+.main-section .content-article {
+  width: 100%;
+}
+.main-section .content-article .main-header {
+  padding-top: 1rem;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: bold;
+  color: hsl(238, 29%, 16%);
+}
+.main-section .content-article .information {
+  width: 90%;
+  margin: 2rem auto 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 0.1rem solid hsl(240, 5%, 91%);
+}
+.main-section .content-article .information .question {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 1.5rem;
+  padding: 1rem 0;
+  font-weight: 300;
+  align-items: center;
+}
+.main-section .content-article .information .question:hover {
+  color: hsl(14, 88%, 65%);
+  cursor: pointer;
+  transition: 0.3s;
+}
+.main-section .content-article .information .question .arrow {
+  width: 1rem;
+  height: 0.7rem;
+  transition: transform 0.3s ease;
+}
+.main-section .content-article .information .question .arrow.active {
+  transform: rotate(180deg);
+}
+.main-section .content-article .information .answer {
+  font-size: 1.3rem;
+  display: none;
+}
+.main-section .content-article .information .answer.show {
+  display: block;
+}
+
+.attribution {
+  margin: 5rem auto;
+  text-align: center;
+  font-size: 1.5rem;
+}
+.attribution a {
+  text-decoration: none;
+}/*# sourceMappingURL=main.css.map */
